@@ -1,3 +1,14 @@
+## 우분투 18.04 VNC 설정과 모니터없이 원격하기
+- 자동 로그인 설정
+~~~
+$ sudo vi /etc/gdm3/custom.conf
+......
+AutomaticLoginEnable = true
+AutomaticLogin = [자동 로그인하려는 계정]
+......
+~~~
+- 
+
 $ sudo apt install x11vnc
 ~~~
 [sudo] password for conda: 
