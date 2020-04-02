@@ -1,5 +1,5 @@
 ## 우분투 18.04 VNC 설정과 모니터없이 원격하기
-- 자동 로그인 설정
+- 자동 로그인 설정 : [root 자동 로그인 설정](https://ssup2.github.io/record/Auto_root_Login_%EC%84%A4%EC%A0%95_Ubuntu_18.04/)
 ~~~
 $ sudo vi /etc/gdm3/custom.conf
 ......
