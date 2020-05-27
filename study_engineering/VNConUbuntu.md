@@ -1,3 +1,7 @@
+- (사전작업) 이런저런 시도를 했다면, 설치한 관련 소프트웨어를 다 지운다.
+~~~
+$ sudo apt-get remove xrdp vnc4server tightvncserver
+~~~
 ~~~
 (base) conda@DA02:~$ sudo apt-get install vino
 패키지 목록을 읽는 중입니다... 완료
