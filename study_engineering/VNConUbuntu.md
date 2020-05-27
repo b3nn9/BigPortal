@@ -55,7 +55,16 @@ $ dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-con
 $ sudo vi /etc/xrdp/xrdp.ini
 ~~~
 ~~~
-(base) conda@DA02:~$ sudo reboot
+$ sudo reboot
+~~~
+~~~
+$ netstat -na | grep 590
+tcp        0      0 0.0.0.0:5900            0.0.0.0:*               LISTEN     
+tcp6       0      0 :::5900                 :::*                    LISTEN     
+unix  3      [ ]         STREAM     CONNECTED     25904    
+$ netstat -na | grep 338
+tcp6       0      0 :::3389                 :::*                    LISTEN     
+unix  3      [ ]         STREAM     CONNECTED     25338    /run/user/1000/bus
 ~~~
 ~~~
 (base) conda@DA02:~$ netstat -na | grep 59
