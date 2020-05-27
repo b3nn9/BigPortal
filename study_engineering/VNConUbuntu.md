@@ -1,4 +1,5 @@
-- (사전작업) 이런저런 시도를 했다면, 설치한 관련 소프트웨어를 다 지운다.
+### 우분투 VNC 종결자
+- (사전작업) 이런저런 시도를 했다면, 관련 소프트웨어를 다 지운다.
 ~~~
 $ sudo apt-get remove xrdp vnc4server tightvncserver
 ~~~
